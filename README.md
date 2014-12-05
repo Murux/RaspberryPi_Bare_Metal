@@ -43,7 +43,7 @@ To start your program, take your Boot-SD-Card of your Raspberry pi and copy your
 If you start your Raspberry pi, your .img-file will be executed without an OS behind it.
 
 sources:
-http://www.raspberrypi.org/documentation/linux/kernel/building.md
+http://www.raspberrypi.org/documentation/linux/kernel/building.md        
 http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/
 
 - Experimenting
@@ -51,6 +51,7 @@ http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-
 First steps with http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/.
 To disassemble your code to see, what's going on inside, just create an .elf-file (see line 27) and upload it to  http://onlinedisassembler.com. Interesting is the assemblercode itself and the sections-button, where you can see the assigned space.
 In Chapter 2 of this tutorial, the given adresses in the assembler part are a bit different, due to the different compilers, but the logic behind it is still recognizable.
+The Linker-Script is in our version in *YourPath*/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/lib/ldscripts/armelfb\_linux\_eabi.x
 
 
 
