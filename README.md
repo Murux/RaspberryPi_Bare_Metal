@@ -9,7 +9,7 @@ I am using Linux Mint 17 as operating system for my tasks.
 // Stands for my thoughts, why I do something a specific way 
 "" Stands for commands for your terminal
 
-1. Preparations
+- Preparations
 
 For compiling the programmed C-code, I used arm-linux-gnueabihf-gcc, like proposed from the official Raspberry pi site.
 
@@ -46,15 +46,16 @@ sources:
 http://www.raspberrypi.org/documentation/linux/kernel/building.md
 http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/
 
-2. Experimenting
+- Experimenting
+
 First steps with http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/
 //ToDo
 
 
 
-3. (Probably) Failed approaches
+- (Probably) Failed approaches
 
-- Qemu
+ Qemu
 Installation with 
 http://xecdesign.com/qemu-emulating-raspberry-pi-the-easy-way/
 
