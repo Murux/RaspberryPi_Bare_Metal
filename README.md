@@ -3,7 +3,7 @@ RaspberryPi_Bare_Metal
 
 Bare Metal experiments with Raspberry pi
 
-I am using Linux Mint 17 as operating system for my tasks.
+I am using Linux Mint 17 Qiara 64-Bit as operating system for my tasks.
 
 *Stands for userspecific input*     
 /// Stands for my thoughts, why I do something a specific way ///     
@@ -48,8 +48,11 @@ http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-
 
 - Experimenting
 
-First steps with http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/
-//ToDo
+First steps with http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/.
+To disassemble your code to see, what's going on inside, just create an .elf-file (see line 27) and upload it to  http://onlinedisassembler.com. Interesting is the assemblercode itself and the sections-button, where you can see the assigned space.
+In Chapter 2 of this tutorial, the given adresses in the assembler part are a bit different, due to the different compilers, but the logic behind it is still recognizable.
+
+
 
 
 
