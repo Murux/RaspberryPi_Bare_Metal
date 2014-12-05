@@ -22,7 +22,7 @@ so that the path is set up from booting your PC. It's recommended to restart you
 
 /// For testing purposes, you can try the blinking_led.c from here. I got it from 
  http://www.valvers.com/open-software/raspberry-pi/step01-bare-metal-programming-in-cpt1/ 
- and it gives an actual feedback through it's blinking LED (surprise) ///
+ and it gives an actual feedback through its blinking LED (surprise) ///
 
 You are able to compile you C-files to .elf-files now. To do this, change directory with your terminal to the position of the C-file and type 
 "arm-linux-gnueabihf-gcc -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s -nostartfiles *YourCFile.c* -o *YourOutputName.elf*"
