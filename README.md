@@ -31,7 +31,7 @@ into your terminal. You should have a .elf-file in your directory.
 In the next step, we want to create a .img-file out of our .elf-file. The arm-linux-gnueabihf-gcc doesn't seem to have the possibility to objcpy, so I have installed gcc-arm-linux-gnueabi with 
 "sudo apt-get install gcc-arm-linux-gnueabi". 
 
-/// Why didn't I only use gcc-arm-linux-gueabi? The compilation of the C-file had an Collect2 error, which is a linking  problem. When I find the reason for that, this README-file will be updated and the preparations hopefully a bit 
+/// Why didn't I only use gcc-arm-linux-gnueabi? The compilation of the C-file had an Collect2 error, which is a linking  problem. When I find the reason for that, this README-file will be updated and the preparations hopefully a bit 
  easier :) /// 
 
 If the installation is finished, simply type 
